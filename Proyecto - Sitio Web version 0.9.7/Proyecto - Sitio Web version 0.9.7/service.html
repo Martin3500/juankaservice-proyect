@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juanka Service - Servicios.</title>
+    <link rel="stylesheet" href="css/service.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-title-container" style="text-decoration: none; color: inherit;">
+            <img src="img/logo.webp" alt="Logo Juanka Service" class="header-logo">
+            <h1>Juanka Service</h1>
+        </a>
+        <nav>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='index.html'">Inicio</button>
+            <button type="button" class="btn btn-primary active">Servicios</button>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='contact.html'">Contacto</button>
+        </nav>
+    </header>
+
+    <main class="services-main">
+        <section class="services-intro">
+            <h2>Nuestros Servicios Técnicos</h2>
+            <p>Ofrecemos soluciones integrales para todas tus necesidades tecnológicas con la máxima calidad y garantía.</p>
+        </section>
+
+        <!-- Tarjetas de servicios -->
+
+        <section class="services-grid">
+            <!-- Servicio 1 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-laptop"></i> <!-- Etiqueta encargada de mostrar los iconos utilizando la clase de Boostrap "<i> es la etiqueta HTML", "bi es la clase base de Boostrap Icons", "bi-laptop es el tipo de icono elegido." -->
+                </div>
+                <h3>Reparación de Hardware</h3>
+                <ul>
+                    <li>Cambio de pantallas.</li>
+                    <li>Sustitución de mouse y teclado.</li>
+                    <li>Cambio de dispositivo de almacenamiento.</li>
+                    <li>Limpieza interna.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+
+            <!-- Servicio 2 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-microsoft"></i>
+                </div>
+                <h3>Instalación de Sistemas Operativos</h3>
+                <ul>
+                    <li>Windows 7/8.1/10/11.</li>
+                    <li>Distribuciones de Linux.</li>
+                    <li>Configuración del sistema operativo.</li>
+                    <li>Configuración de doble arranque.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+
+            <!-- Servicio 3 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-shield-lock"></i>
+                </div>
+                <h3>Seguridad Informática</h3>
+                <ul>
+                    <li>Antivirus profesional.</li>
+                    <li>Firewall configurado.</li>
+                    <li>Eliminación de malware.</li>
+                    <li>Protección contra ransomware.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+
+            <!-- Servicio 4 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-router"></i>
+                </div>
+                <h3>Redes y Conectividad</h3>
+                <ul>
+                    <li>Configuración de routers.</li>
+                    <li>Redes domésticas y empresariales.</li>
+                    <li>Soluciones Wi-Fi.</li>
+                    <li>VPN y acceso remoto.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+
+            <!-- Servicio 5 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-briefcase"></i>
+                </div>
+                <h3>Solucion corporativa</h3>
+                <ul>
+                    <li>Precio accesibles.</li>
+                    <li>Abonos corporativos.</li>
+                    <li>Creacion y/o configuracion de un sistema.</li>
+                    <li>Asesoramiento personalizado.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+
+            <!-- Servicio 6 -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="bi bi-cloud-check"></i>
+                </div>
+                <h3>Copia de seguridad</h3>
+                <ul>
+                    <li>Evita la perdida de datos.</li>
+                    <li>Tranquilidad las 24hs.</li>
+                    <li>Restauracion instantanea.</li>
+                    <li>Proteccion automatizada.</li>
+                </ul>
+                <a href="contact.html" class="service-price">Consultanos</a>
+            </div>
+        </section>
+
+        <section class="service-cta">
+            <h3>¿No encuentras lo que necesitas?</h3>
+            <p>Contáctanos para una consulta personalizada y te ofreceremos la mejor solución para tu caso.</p>
+            <button class="btn btn-primary btn-lg" onclick="window.location.href='contact.html'">Contactar ahora</button>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Juanka Service</h4>
+                <p>Tu servicio técnico de confianza desde 2025</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><a href="tel:+549114063-1872">+54 9 11 4063-1872</a></p>
+                <p><a href="mailto:juanib117c@gmail.com" target="_blank">juanib117c@gmail.com</a></p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <a href="index.html">Inicio</a>
+                <a href="contact.html">Contacto</a>
+            </div>
+            <div class="footer-section">
+                <h4>Redes Sociales</h4>
+                <a href="https://www.instagram.com/juankaservice/" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="" target="_blank"><i class="bi bi-youtube"></i> YouTube</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Juanka Service. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
